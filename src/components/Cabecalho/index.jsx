@@ -8,8 +8,9 @@ function Cabecalho() {
         <nav>
           <ul className="flex gap-4 items-center text-lg">
             
-              <li className="flex  items-center justify-center gap-2
-               hover:border-b hover:border-black cursor-pointer">Ver Código <Code/></li>
+              <li>
+                <a className='flex  items-center justify-center gap-2
+               hover:border-b hover:border-black cursor-pointer' href="https://github.com/Guikino/hashingcode">Ver Código <Code/></a></li>
             
             
             <li className="flex gap-2 items-center hover:transition-all cursor-pointer
